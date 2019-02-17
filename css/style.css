@@ -183,6 +183,21 @@ h1,h2,h3,h4,h5 {
   background-color: #fff;
 }
 
+.footer:before {
+  content: '';
+  position: absolute;
+  margin-left: 410px;
+  bottom: -70px;/*線の上下位置*/
+  display: inline-block;
+  width: 800px;/*線の長さ*/
+  height: 1px;/*線の太さ*/
+  -moz-transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translate(-50%);
+  background-color: black;/*線の色*/
+}
+
 .copyright {
   color: #777;
   text-align: center;
